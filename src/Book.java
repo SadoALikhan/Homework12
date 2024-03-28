@@ -38,7 +38,7 @@ public class Book {
             return false;
         }
         Book book = (Book) other;
-        return toString().equals(book.toString());
+        return title.equals(book.title) && author.equals(book.author) && publicationYear == book.publicationYear;
     }
 
     @Override

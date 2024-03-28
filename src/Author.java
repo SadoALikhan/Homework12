@@ -28,7 +28,7 @@ public class Author {
             return false;
         }
         Author author = (Author) other;
-       return toString().equals(author.toString());
+       return firstName.equals(author.firstName) && lastName.equals(author.lastName);
     }
 
     @Override
