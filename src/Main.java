@@ -14,5 +14,10 @@ public class Main {
         System.out.println("3)Название книги: " + secondBook.getTitle() + ". Автор книги: " +
                 secondBook.getAuthor().getFirstName() + " " + secondBook.getAuthor().getLastName()
                 + ". Год выпуска: " + secondBook.getPublicationYear());
+
+        System.out.println(secondAuthor);
+        System.out.println(firstBook);
+        System.out.println(secondAuthor.equals(firstAuthor));
+        System.out.println(secondBook.equals(firstBook));
     }
 }
